@@ -69,7 +69,7 @@ title: LPC90 Language Specification
 13. **Appendices**  
    A. Backus-Naur Form (BNF) Grammar  
    B. Reserved Words  
-
+  
    ### Purpose of this Specification
 
 The purpose of this specification is to define the syntax, semantics, and structure of LPC90, a programming language originally designed for building and enhancing LPMUDs (multi-user dungeon environments). By providing a formal and detailed description of the language as it existed in 1990, this document aims to:
