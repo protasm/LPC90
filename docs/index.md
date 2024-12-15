@@ -285,6 +285,7 @@ inherit "base_object";
 Preprocessor Section:
 ```lpc
 #define MAX_HEALTH 100
+
 #include "local_file.h" // File in the same directory
 #include <standard_lib.h> // File in the standard library
 ```
