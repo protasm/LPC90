@@ -70,7 +70,7 @@ title: LPC90 Language Specification
    A. [Backus-Naur Form (BNF) Grammar](#a-backus-naur-form-bnf-grammar)
       A.1 BNF Grammar
     A.2 Example LPC Code
-   B. [Reserved Words](#b-reserved-words)  
+   B. [Reserved Words](#reserved-words)  
 
 ## 1. Introduction
 
