@@ -74,7 +74,7 @@ title: LPC90 Language Specification
 
 <h3 id="1.1">1.1 Purpose of this Specification <a href="#ch1">[toc]</a></h3>
 
-The purpose of this specification is to define the syntax, semantics, and structure of LPC, a programming language designed for building and enhancing LPMUDs (online, multi-user, text-only role-playing games) &mdash; specifically, as the language existed very soon after its inception. By offering a formal and detailed description of LPC circa 1990, the LPC90 language specification aims to:
+The purpose of this specification is to define the syntax, semantics, and structure of LPC, a programming language designed for building and enhancing LPMuds (online, multi-user, text-only role-playing games) &mdash; specifically, as the language existed very soon after its inception. By offering a formal and detailed description of LPC circa 1990, the LPC90 language specification aims to:
 
 1. **Establish a Foundation**: Establish a consistent and widely accepted foundation that describes an "original" dialect of LPC, providing a common starting point from which future LPC90-based specifications can evolve;
 
@@ -90,7 +90,7 @@ This specification is modeled after the scope and structure of modern programmin
 
 <h3 id="1.2">1.2 History of LPC <a href="#ch1">[toc]</a></h3>
 
-Lars Pensj&ouml; [created LPC in 1989](https://w.wiki/CReE) as a simple, C-like programming language for developers of LPMUD game drivers and worlds.
+Lars Pensj&ouml; [created LPC in 1989](https://w.wiki/CReE) as a simple, C-like programming language for developers of MUD ("Multi-User Dungeon") game drivers and architects of MUD worlds.  MUDs written in LPC came to be known, accordingly, as LPMuds.
 
 <h3 id="1.3">1.3 Design Philosophy <a href="#ch1">[toc]</a></h3>
 
