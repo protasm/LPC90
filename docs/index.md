@@ -27,9 +27,9 @@ title: LPC90 Language Specification
   3.4 [Type Conversion](#3.4)  
 
 4. **Variables**<a id="ch4"></a>  
-  4.1 [Variable Declarations](#4.1)  
-  4.2 [Scope and Lifetime of Variables](#4.2)  
-  4.3 [Default Values](#4.3)  
+  [4.1](#4.1) Variable Declarations  
+  [4.2](#4.2) Scope and Lifetime of Variables  
+  [4.3](#4.2) Default Values  
 
 5. **Operators**<a id="ch5"></a>  
   5.1 [Operator Precedence and Associativity](#5.1)  
@@ -119,12 +119,12 @@ Lars Pensj&ouml; [created LPC in 1989](https://w.wiki/CReE) as a simple, C-like 
 <h3 id="3.4"><a href="#ch3">3.4 Type Conversion</a></h3>  
 
 ## 4. Variables  
+<h3 id="4.1"><a href="#ch4">4.1</a> Variable Declarations</h3>  
 
-  ### 4.1 Variable Declarations  
+<h3 id="4.2"><a href="#ch4">4.2</a> Scope and Lifetime of Variables</h3>  
 
-  ### 4.2 Scope and Lifetime of Variables  
+<h3 id="4.3"><a href="#ch4">4.3</a> Default Values</h3>  
 
-  ### 4.3 Default Values
 
 ## 5. Operators  
 
