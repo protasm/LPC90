@@ -102,7 +102,7 @@ The design of LPC90 reflected a pragmatic approach to programming for text-based
    LPC90 drew heavily from the syntax and semantics of the C programming language, providing developers with a familiar and straightforward programming style. This similarity reduced the learning curve for those already acquainted with C, while maintaining the readability and ease of use that procedural programming offered.
 
 2. **Lightweight Object Orientation**  
-   While not fully object-oriented, LPC90 introduced lightweight object support to facilitate modular design and code reuse. Objects encapsulated state and behavior, enabling developers to define interactive entities, such as players, items, and rooms, in a manner that was both intuitive and efficient.
+   While not fully object-oriented, LPC90 introduced lightweight object support to facilitate modular design and code reuse. Objects encapsulated state and behavior, enabling developers to define interactive entities &emdash; such as players, items, and rooms &emdash; in a manner that was both intuitive and efficient.
 
 3. **Performance for Real-Time Applications**  
    Designed for real-time, interactive environments, LPC90 prioritized performance. Its features were streamlined to minimize unnecessary complexity, ensuring that MUD servers could handle a high volume (by 1990 standards) of concurrent users and events without significant resource constraints.
