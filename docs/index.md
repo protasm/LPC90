@@ -150,7 +150,7 @@ Lars Pensj&ouml; [created LPC in 1989](https://w.wiki/CReE) as a streamlined, C-
 
 <h3 id="7.1">7.1 Block Statements <a href="#ch7">[toc]</a></h3>  
 
-<h3 id="7.3">7.2 Control Flow Statements (`if`, `else`, `while`, `for`) <a href="#ch7">[toc]</a></h3>  
+<h3 id="7.2">7.2 Control Flow Statements (`if`, `else`, `while`, `for`) <a href="#ch7">[toc]</a></h3>  
 
 <h3 id="7.3">7.3 Return Statements <a href="#ch7">[toc]</a></h3>  
 
