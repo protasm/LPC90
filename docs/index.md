@@ -27,9 +27,9 @@ title: LPC90 Language Specification
   3.4 [Type Conversion](#3.4)  
 
 4. **Variables**<a id="ch4"></a>  
-  [4.1](#4.1) Variable Declarations  
-  [4.2](#4.2) Scope and Lifetime of Variables  
-  [4.3](#4.2) Default Values  
+  4.1 [Variable Declarations](#4.1)  
+  4.2 [Scope and Lifetime of Variables](#4.1)  
+  4.3 [Default Values](#4.1)  
 
 5. **Operators**<a id="ch5"></a>  
   5.1 [Operator Precedence and Associativity](#5.1)  
@@ -110,20 +110,20 @@ Lars Pensj&ouml; [created LPC in 1989](https://w.wiki/CReE) as a simple, C-like 
 
 ## 3. Types  
 
-<h3 id="3.1"><a href="#ch3">3.1 Primitive Types</a></h3>  
+<h3 id="3.1">3.1 Primitive Types <a href="#ch3">[toc]</a></h3>  
 
-<h3 id="3.2"><a href="#ch3">3.2 Object Types</a></h3>  
+<h3 id="3.2">3.2 Object Types <a href="#ch3">[toc]</a></h3>  
 
-<h3 id="3.3"><a href="#ch3">3.3 Special Types</a> (`nil`, `mixed`)</h3>  
+<h3 id="3.3">3.3 Special Types (`nil`, `mixed`) <a href="#ch3">[toc]</a></h3>  
 
-<h3 id="3.4"><a href="#ch3">3.4 Type Conversion</a></h3>  
+<h3 id="3.4">3.4 Type Conversion <a href="#ch3">[toc]</a></h3>  
 
 ## 4. Variables  
-<h3 id="4.1"><a href="#ch4">4.1</a> Variable Declarations</h3>  
+<h3 id="4.1">4.1 Variable Declarations <a href="#ch4">[toc]</a></h3>  
 
-<h3 id="4.2"><a href="#ch4">4.2</a> Scope and Lifetime of Variables</h3>  
+<h3 id="4.2">4.2 Scope and Lifetime of Variables <a href="#ch4">[toc]</a></h3>  
 
-<h3 id="4.3"><a href="#ch4">4.3</a> Default Values</h3>  
+<h3 id="4.3">4.3 Default Values <a href="#ch4">[toc]</a></h3>  
 
 
 ## 5. Operators  
@@ -184,7 +184,7 @@ Lars Pensj&ouml; [created LPC in 1989](https://w.wiki/CReE) as a simple, C-like 
 
 ## 12. Appendices
 
-<h3 id="app-a"><a href="#appendices">A. Backus-Naur Form (BNF) Grammar</a></h3>
+<h3 id="app-a">A. Backus-Naur Form (BNF) Grammar <a href="#appendices">[toc]</a></h3>
 
 This appendix defines the grammar of LPC90 using Backus-Naur Form (BNF). The grammar specifies the structure of an LPC source file, which consists of the following elements in order:
 
@@ -267,7 +267,7 @@ Method Section:
 void reset() { health = MAX_HEALTH; }
 ```
 
-### B. Reserved Words
+<h3 id="app-b">B. Reserved Words <a href="#appendices">[toc]</a></h3>
 
 This appendix lists the reserved words in LPC90. Reserved words are predefined keywords in the language that cannot be used as identifiers (such as variable names, function names, or object names). They are an integral part of the language syntax and semantics.
 
