@@ -219,7 +219,7 @@ This appendix defines the grammar of LPC90 using Backus-Naur Form (BNF). The gra
 3. Field declarations and definitions
 4. Method declarations and definitions
 
-A.1 BNF Grammar
+### A.1 BNF Grammar
 
 ```bnf
 <source-file> ::= <inherit-section>? <preprocessor-section>? <field-section> <method-section>
@@ -250,7 +250,7 @@ A.1 BNF Grammar
               | <block>
 ```
 
-A.2 Example LPC Source File
+### A.2 Example LPC Source File
 
 ```lpc
 inherit "base_object";
@@ -266,7 +266,7 @@ void reset() {
 }
 ```
 
-A.3 Parsing of the Example
+### A.3 Parsing of the Example
 
 The example LPC file in A.2 (above) parses into the following sections:
 
@@ -297,7 +297,7 @@ void reset() { health = MAX_HEALTH; }
 
 This appendix lists the reserved words in LPC90. Reserved words are predefined keywords in the language that cannot be used as identifiers (such as variable names, function names, or object names). They are an integral part of the language syntax and semantics.
 
-## List of Reserved Words
+### List of Reserved Words
 
 The following words are reserved in LPC90:
 
@@ -326,7 +326,7 @@ The following words are reserved in LPC90:
 - **Object-Oriented Keywords**:
   - `inherit`
 
-## Notes
+### Notes
 
 1. **Case Sensitivity**:
    LPC90 is a case-sensitive language. Reserved words must be written in lowercase as listed above.
@@ -336,7 +336,4 @@ The following words are reserved in LPC90:
 
 3. **Impact on Identifiers**:
    Because reserved words cannot be redefined, attempting to use them as identifiers will result in a compilation error.
-
-
-
-[def]: #33-special-types-nil-mixed
+   
