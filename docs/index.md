@@ -151,6 +151,15 @@ void reset() {
 }
 ```
 
+A.3 Explanation of the Example
+
+The example LPC file parses into the following sections:
+
+Inherit Section: inherit "base_object";
+Preprocessor Section: #define MAX_HEALTH 100 and #include "constants.h"
+Field Section: int health = 100; and string name;
+Method Section: void reset() { health = MAX_HEALTH; }
+
 ### B. Reserved Words
 
 This appendix lists the reserved words in LPC90. Reserved words are predefined keywords in the language that cannot be used as identifiers (such as variable names, function names, or object names). They are an integral part of the language syntax and semantics.
