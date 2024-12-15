@@ -131,4 +131,19 @@ This appendix defines the grammar of LPC90 using Backus-Naur Form (BNF). The gra
               | "while" "(" <expression> ")" <block>
               | "for" "(" <expression>? ";" <expression>? ";" <expression>? ")" <block>
               | <block>
+'''
 
+#### Sample LPC Source File
+
+'''lpc
+inherit "base_object";
+
+#define MAX_HEALTH 100
+#include "constants.h"
+
+int health = 100;
+string name;
+
+void reset() {
+    health = MAX_HEALTH;
+}
