@@ -151,7 +151,6 @@ LPC90's design reflected the state of computer hardware, networking, programming
 
 <h3 id="4.3">4.3 Default Values <a href="#ch4">[toc]</a></h3>  
 
-
 ## 5. Operators  
 
 <h3 id="5.1">5.1 Operator Precedence and Associativity <a href="#ch5">[toc]</a></h3>  
@@ -198,7 +197,7 @@ LPC90's design reflected the state of computer hardware, networking, programming
 
 ## 10. Preprocessing Directives  
 
-<h3 id="10.1">10.1 `#include` Directives <a href="#ch10">[toc]</a></h3>  
+<h3 id="10.1"></h3>###10.1 `#include` Directives <a href="#ch10">[toc]</a>  
 
 <h3 id="10.2">10.2 `#define` Macros <a href="#ch10">[toc]</a></h3>  
 
