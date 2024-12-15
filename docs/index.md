@@ -165,7 +165,7 @@ Field Section: int health = 100; and string name;
 Method Section: void reset() { health = MAX_HEALTH; }
 ```
 
-### B. Reserved Words
+B. ### Reserved Words
 
 This appendix lists the reserved words in LPC90. Reserved words are predefined keywords in the language that cannot be used as identifiers (such as variable names, function names, or object names). They are an integral part of the language syntax and semantics.
 
