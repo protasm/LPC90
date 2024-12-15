@@ -82,7 +82,7 @@ The purpose of this specification is to define the syntax, semantics, and struct
 
 2. **Facilitate Compatibility**: Provide a clear and consistent reference for developers working with or adapting legacy LPC-based systems;
 
-3. **Enable Collaboration**: Provide a foundation for community-driven enhancements or adaptations of LPC90, while maintaining fidelity to LPC's original design;
+3. **Enable Collaboration**: Provide a foundation for community-driven enhancements or adaptations of LPC, while maintaining fidelity to LPC's original design;
 
 4. **Preserve Historical Context**: Document the features and design principles of LPC to ensure that the language’s original intent and functionality are not lost over time; and,
 
