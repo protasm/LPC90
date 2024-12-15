@@ -74,12 +74,12 @@ title: LPC90 Language Specification
 
 The purpose of this specification is to define the syntax, semantics, and structure of LPC90, a programming language originally designed for building and enhancing LPMUDs (multi-user dungeon environments). By providing a formal and detailed description of the language as it existed in 1990, this document aims to:
 
-1. **Preserve Historical Context**: Document the features and design principles of LPC90 to ensure that the language’s original intent and functionality are not lost over time.
+1. **Facilitate Compatibility**: Provide a clear and consistent reference for developers working with or adapting legacy LPC-based systems;
 
-2. **Facilitate Compatibility**: Provide a clear and consistent reference for developers working with or adapting legacy LPC-based systems, ensuring compatibility with existing software and environments.
+2. **Enable Collaboration**: Provide a foundation for community-driven enhancements or adaptations of LPC90, while maintaining fidelity to its original design;
 
-3. **Promote Education and Exploration**: Serve as a resource for programmers, hobbyists, and historians interested in the evolution of programming languages and the role of LPC in the development of interactive gaming.
+3. **Preserve Historical Context**: Document the features and design principles of LPC90 to ensure that the language’s original intent and functionality are not lost over time; and,
 
-4. **Enable Collaboration**: Provide a foundation for community-driven enhancements or adaptations of LPC90, while maintaining fidelity to its original design.
+4. **Promote Education and Exploration**: Serve as a resource for programmers, hobbyists, and gamers interested in the role of LPC in the development of interactive gaming.
 
-This specification is modeled after the scope and structure of modern programming language specifications, such as the Java Language Specification, but reflects LPC90’s simpler, more focused feature set. It aims to strike a balance between technical rigor and accessibility, making it useful for both technical and non-technical audiences interested in LPC’s legacy.
+This specification is modeled after the scope and structure of modern programming language specifications but reflects LPC90’s simpler, more focused feature set. It aims to strike a balance between technical rigor and accessibility, making it useful for both technical and non-technical audiences interested in LPC’s legacy.
