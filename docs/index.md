@@ -69,7 +69,7 @@ title: LPC90 Language Specification
 13. **Appendices**  
    A. [Backus-Naur Form (BNF) Grammar](#backus-naur-form-bnf-grammar)
       A.1 BNF Grammar
-      A.2 Example LPC Code
+    A.2 Example LPC Code
    B. [Reserved Words](#reserved-words)  
 
 ## 1. Introduction
