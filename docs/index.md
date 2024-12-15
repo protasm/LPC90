@@ -168,17 +168,27 @@ This appendix lists the reserved words in LPC90. Reserved words are predefined k
 
 The following words are reserved in LPC90:
 
+- **Data Types**:
+  - `int`
+  - `float`
+  - `mapping`
+  - `mixed`
+  - `object`
+  - `status`
+  - `string`
+  - `void`
+
 - **Control Structures**:
-  - `if`
   - `else`
   - `for`
-  - `while`
+  - `if`
   - `return`
+  - `while`
 
 - **Logical Constants**:
-  - `true`
   - `false`
   - `nil`
+  - `true`
 
 - **Object-Oriented Keywords**:
   - `inherit`
@@ -192,5 +202,5 @@ The following words are reserved in LPC90:
    Additional reserved words may be introduced in future versions of the LPC specification. Programs written in LPC90 should avoid using words that might reasonably become reserved in future specifications, such as `switch` or `class`.
 
 3. **Impact on Identifiers**:
-   Since reserved words cannot be redefined, attempting to use them as identifiers will result in a compilation error.
+   Because reserved words cannot be redefined, attempting to use them as identifiers will result in a compilation error.
 
