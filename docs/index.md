@@ -104,7 +104,7 @@ This appendix defines the grammar of LPC90 using Backus-Naur Form (BNF). The gra
 3. Field declarations and definitions
 4. Method declarations and definitions
 
-#### A.1 BNF Grammar
+A.1 BNF Grammar
 
 ```bnf
 <source-file> ::= <inherit-section>? <preprocessor-section>? <field-section> <method-section>
@@ -135,7 +135,7 @@ This appendix defines the grammar of LPC90 using Backus-Naur Form (BNF). The gra
               | <block>
 ```
 
-#### A.2 Sample LPC Source File
+A.2 Sample LPC Source File
 
 ```lpc
 inherit "base_object";
