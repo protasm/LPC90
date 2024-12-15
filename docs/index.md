@@ -242,7 +242,7 @@ void reset() {
 
 A.3 Parsing of the Example
 
-The example LPC file parses into the following sections:
+The example LPC file in A.2 (above) parses into the following sections:
 
 Inherit Section:
 ```lpc
