@@ -70,7 +70,9 @@ title: LPC90 Language Specification
    A. Backus-Naur Form (BNF) Grammar  
    B. Reserved Words  
 
-## Purpose of this Specification
+## 1. Introduction
+
+### 1.1 Purpose of this Specification
 
 The purpose of this specification is to define the syntax, semantics, and structure of LPC, a programming language designed for building and enhancing LPMUDs (online, multi-user, text-only role-playing games) &mdash; specifically, as the language existed very soon after its inception. By offering a formal and detailed description of LPC circa 1990, the LPC90 language specification aims to:
 
@@ -86,5 +88,9 @@ The purpose of this specification is to define the syntax, semantics, and struct
 
 This specification is modeled after the scope and structure of modern programming language specifications but reflects LPC90’s simpler, more focused feature set. It aims to strike a balance between technical rigor and accessibility, making it useful for both technical audiences building LPC90-compliant compilers and systems and non-technical audiences interested in LPC’s legacy.
 
-## History of LPC
+### 1.2 History of LPC
 Lars Pensj&ouml; is credited with [creating LPC in 1989](https://w.wiki/CReE) as a simple, C-like programming language for developers of LPMUD game drivers and worlds.
+
+## 13. Appendices
+
+### A. Backus-Naur Form (BNF) Grammar  
