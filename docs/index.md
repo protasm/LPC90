@@ -67,10 +67,10 @@ title: LPC90 Language Specification
    11.2 Runtime Errors  
 
 13. **Appendices**  
-   A. [Backus-Naur Form (BNF) Grammar](#backus-naur-form-bnf-grammar)
+   A. [Backus-Naur Form (BNF) Grammar](#a-backus-naur-form-bnf-grammar)
       A.1 BNF Grammar
     A.2 Example LPC Code
-   B. [Reserved Words](#reserved-words)  
+   B. [Reserved Words](#b-reserved-words)  
 
 ## 1. Introduction
 
@@ -154,7 +154,7 @@ void reset() {
 }
 ```
 
-A.3 Explanation of the Example
+A.3 Parsing of the Example
 
 The example LPC file parses into the following sections:
 
