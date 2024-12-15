@@ -72,7 +72,7 @@ title: LPC90 Language Specification
 
 ## 1. Introduction
 
-<h3 id="1.1"><a href="#ch1">1.1 Purpose of this Specification</a></h3>
+<h3 id="1.1">1.1 Purpose of this Specification <a href="#ch1">[toc]</a></h3>
 
 The purpose of this specification is to define the syntax, semantics, and structure of LPC, a programming language designed for building and enhancing LPMUDs (online, multi-user, text-only role-playing games) &mdash; specifically, as the language existed very soon after its inception. By offering a formal and detailed description of LPC circa 1990, the LPC90 language specification aims to:
 
@@ -88,25 +88,25 @@ The purpose of this specification is to define the syntax, semantics, and struct
 
 This specification is modeled after the scope and structure of modern programming language specifications but reflects LPC90’s simpler, more focused feature set. It aims to strike a balance between technical rigor and accessibility, making it useful for both technical audiences building LPC90-compliant compilers and systems and non-technical audiences interested in LPC’s legacy.
 
-<h3 id="1.2"><a href="#ch1">1.2 History of LPC</a></h3>
+<h3 id="1.2">1.2 History of LPC <a href="#ch1">[toc]</a></h3>
 
 Lars Pensj&ouml; [created LPC in 1989](https://w.wiki/CReE) as a simple, C-like programming language for developers of LPMUD game drivers and worlds.
 
-<h3 id="1.3"><a href="#ch1">1.3 Design Philosophy</a></h3>
+<h3 id="1.3">1.3 Design Philosophy <a href="#ch1">[toc]</a></h3>
 
 ## 2. Lexical Structure  
 
-<h3 id="2.1"><a href="#ch2">2.1 Characters</a></h3>
+<h3 id="2.1">2.1 Characters <a href="#ch2">[toc]</a></h3>
 
-<h3 id="2.2"><a href="#ch2">2.2 Tokens</a></h3>  
+<h3 id="2.2">2.2 Tokens <a href="#ch2">[toc]</a></h3>  
 
-<h3 id="2.3"><a href="#ch2">2.3 Keywords</a></h3>  
+<h3 id="2.3">2.3 Keywords <a href="#ch2">[toc]</a></h3>  
 
-<h3 id="2.4"><a href="#ch2">2.4 Identifiers</a></h3>  
+<h3 id="2.4">2.4 Identifiers <a href="#ch2">[toc]</a></h3>  
 
-<h3 id="2.5"><a href="#ch2">2.5 Literals</a></h3>  
+<h3 id="2.5">2.5 Literals <a href="#ch2">[toc]</a></h3>  
 
-<h3 id="2.6"><a href="#ch2">2.6 Comments</a></h3>
+<h3 id="2.6">2.6 Comments <a href="#ch2">[toc]</a></h3>
 
 ## 3. Types  
 
