@@ -138,7 +138,7 @@ A.1 BNF Grammar
               | <block>
 ```
 
-A.2 Sample LPC Source File
+A.2 Example LPC Source File
 
 ```lpc
 inherit "base_object";
