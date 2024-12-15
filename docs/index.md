@@ -23,7 +23,7 @@ title: LPC90 Language Specification
 3. **Types**<a id="ch3"></a>  
   3.1 [Primitive Types](#3.1)  
   3.2 [Object Types](#3.2)  
-  3.3 [Special Types](#3.3) (`nil`, `mixed`)  
+  3.3 [Special Types](#3.3) ('nil', 'mixed')  
   3.4 [Type Conversion](#3.4)  
 
 4. **Variables**<a id="ch4"></a>  
@@ -45,7 +45,7 @@ title: LPC90 Language Specification
 
 7. **Statements**<a id="ch7"></a>  
   7.1 [Block Statements](#7.1)  
-  7.2 [Control Flow Statements](#7.2) (`if`, `else`, `while`, `for`)  
+  7.2 [Control Flow Statements](#7.2) ('if', 'else', 'while', 'for')  
   7.3 [Return Statements](#7.3)  
 
 8. **Objects**<a id="ch8"></a>  
@@ -59,8 +59,8 @@ title: LPC90 Language Specification
   9.2 [Object Instantiation and Initialization](#9.2)  
 
 10. **Preprocessing Directives**<a id="ch10"></a>  
-  10.1 [`#include` Directives](#10.1)  
-  10.2 [`#define` Macros](#10.2)  
+  10.1 ['#include' Directives](#10.1)  
+  10.2 ['#define' Macros](#10.2)  
 
 11. **Error Handling**<a id="ch11"></a>  
   11.1 [Syntax Errors](#11.1)  
