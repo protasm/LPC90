@@ -72,7 +72,7 @@ title: LPC90 Language Specification
 
 ## Purpose of this Specification
 
-The purpose of this specification is to define the syntax, semantics, and structure of LPC, a programming language designed for building and enhancing LPMUDs (online, multi-user, text-only role-playing games) &mdash; specifically, as the language existed very soon after its inception. By providing a formal and detailed description of LPC circa 1990, the LPC90 language specification aims to:
+The purpose of this specification is to define the syntax, semantics, and structure of LPC, a programming language designed for building and enhancing LPMUDs (online, multi-user, text-only role-playing games) &mdash; specifically, as the language existed very soon after its inception. By offering a formal and detailed description of LPC circa 1990, the LPC90 language specification aims to:
 
 1. **Establish a Foundation**: Establish a consistent and widely accepted foundation that describes as the "original" dialect of LPC, providing a common starting point from which future LPC specifications can evolve;
 
