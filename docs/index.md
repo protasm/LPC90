@@ -67,8 +67,10 @@ title: LPC90 Language Specification
    11.2 Runtime Errors  
 
 13. **Appendices**  
-   A. Backus-Naur Form (BNF) Grammar  
-   B. Reserved Words  
+   A. [Backus-Naur Form (BNF) Grammar](#backus-naur-form-bnf-grammar)
+      A.1 BNF Grammar
+      A.2 Example LPC Code
+   B. [Reserved Words](#reserved-words)  
 
 ## 1. Introduction
 
@@ -102,7 +104,7 @@ This appendix defines the grammar of LPC90 using Backus-Naur Form (BNF). The gra
 3. Field declarations and definitions
 4. Method declarations and definitions
 
-#### BNF Grammar
+#### A.1 BNF Grammar
 
 ```bnf
 <source-file> ::= <inherit-section>? <preprocessor-section>? <field-section> <method-section>
@@ -131,11 +133,11 @@ This appendix defines the grammar of LPC90 using Backus-Naur Form (BNF). The gra
               | "while" "(" <expression> ")" <block>
               | "for" "(" <expression>? ";" <expression>? ";" <expression>? ")" <block>
               | <block>
-'''
+```
 
-#### Sample LPC Source File
+#### A.2 Sample LPC Source File
 
-'''lpc
+```lpc
 inherit "base_object";
 
 #define MAX_HEALTH 100
@@ -147,3 +149,39 @@ string name;
 void reset() {
     health = MAX_HEALTH;
 }
+```
+
+### B. Reserved Words
+
+This appendix lists the reserved words in LPC90. Reserved words are predefined keywords in the language that cannot be used as identifiers (such as variable names, function names, or object names). They are an integral part of the language syntax and semantics.
+
+## List of Reserved Words
+
+The following words are reserved in LPC90:
+
+- **Control Structures**:
+  - `if`
+  - `else`
+  - `for`
+  - `while`
+  - `return`
+
+- **Logical Constants**:
+  - `true`
+  - `false`
+  - `nil`
+
+- **Object-Oriented Keywords**:
+  - `inherit`
+
+## Notes
+
+1. **Case Sensitivity**:
+   LPC90 is a case-sensitive language. Reserved words must be written in lowercase as listed above.
+
+2. **Future Extensions**:
+   Additional reserved words may be introduced in future versions of the LPC specification. Programs written in LPC90 should avoid using words that might reasonably become reserved in future specifications, such as `switch` or `class`.
+
+3. **Impact on Identifiers**:
+   Since reserved words cannot be redefined, attempting to use them as identifiers will result in a compilation error.
+
