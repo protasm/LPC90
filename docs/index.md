@@ -90,9 +90,37 @@ This specification is modeled after the scope and structure of modern programmin
 
 <h3 id="1.2">1.2 History of LPC <a href="#ch1">[toc]</a></h3>
 
-Lars Pensj&ouml; [created LPC in 1989](https://w.wiki/CReE) as a streamlined, C-like programming language for MUD ("Multi-User Dungeon") game engine developers and world architects.  MUDs written in LPC came to be known, accordingly, as LPMuds.
+Lars Pensj&ouml; [created LPC in 1989](https://w.wiki/CReE) as a streamlined programming language for MUD ("Multi-User Dungeon") game engine developers and world architects.  MUDs written in LPC came to be known, accordingly, as LPMuds.
 
 <h3 id="1.3">1.3 Design Philosophy <a href="#ch1">[toc]</a></h3>
+
+### Design Philosophy
+
+The design of LPC90 reflects a pragmatic approach to programming for text-based multi-user environments, such as MUDs (Multi-User Dungeons). Its philosophy is guided by simplicity, efficiency, and flexibility, aiming to empower developers to create and maintain complex, interactive systems with minimal overhead.
+
+#### Key Principles
+
+1. **C-like Simplicity**  
+   LPC90 draws heavily from the syntax and semantics of the C programming language, providing developers with a familiar and straightforward programming style. This similarity reduces the learning curve for those already acquainted with C, while maintaining the readability and ease of use that procedural programming offers.
+
+2. **Lightweight Object Orientation**  
+   While not fully object-oriented, LPC90 introduces lightweight object support to facilitate modular design and code reuse. Objects encapsulate state and behavior, enabling developers to define interactive entities, such as players, items, and rooms, in a manner that is both intuitive and efficient.
+
+3. **Performance for Real-Time Applications**  
+   Designed for real-time, interactive environments, LPC90 prioritizes performance. Its features are streamlined to minimize unnecessary complexity, ensuring that MUD servers can handle a high volume of concurrent users and events without significant resource constraints.
+
+4. **Flexibility and Extensibility**  
+   LPC90 balances simplicity with extensibility, providing mechanisms such as inheritance and preprocessor directives (`#include`, `#define`) to allow developers to structure and extend their code effectively. This flexibility supports a wide variety of use cases, from simple systems to complex game mechanics.
+
+5. **Minimalism**  
+   The language avoids overloading developers with unnecessary features, instead focusing on core functionality that aligns with its intended purpose. This minimalist design philosophy ensures that developers can focus on problem-solving rather than grappling with excessive language constructs.
+
+6. **Preservation of Developer Creativity**  
+   LPC90 provides developers with tools to implement custom behavior and mechanics without imposing rigid design patterns. This freedom fosters creativity and adaptability, enabling the development of highly customized and innovative MUDs.
+
+#### Historical Context
+
+LPC90's design reflects the state of programming and MUD development in the early 1990s. By blending the procedural style of C with lightweight object-oriented concepts, it provided a bridge between traditional structured programming and emerging object-oriented methodologies, making it uniquely suited to its era.
 
 ## 2. Lexical Structure  
 
