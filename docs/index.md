@@ -8,7 +8,7 @@ title: LPC90 Language Specification
 ## Table of Contents
 
 1. **Introduction**  
-   1.1 Purpose of this Specification
+   1.1 Purpose of this Specification  
    1.2 Design Philosophy  
    1.3 History of LPC  
 
@@ -72,7 +72,7 @@ title: LPC90 Language Specification
 
    ### Purpose of this Specification
 
-The primary purpose of this specification is to define the syntax, semantics, and structure of LPC90, a programming language originally designed for building and enhancing LPMUDs (multi-user dungeon environments). By providing a formal and detailed description of the language as it existed in 1990, this document aims to:
+The purpose of this specification is to define the syntax, semantics, and structure of LPC90, a programming language originally designed for building and enhancing LPMUDs (multi-user dungeon environments). By providing a formal and detailed description of the language as it existed in 1990, this document aims to:
 
 1. **Preserve Historical Context**: Document the features and design principles of LPC90 to ensure that the language’s original intent and functionality are not lost over time.
 
