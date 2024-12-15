@@ -148,39 +148,39 @@ Lars Pensj&ouml; [created LPC in 1989](https://w.wiki/CReE) as a streamlined, C-
 
 ## 7. Statements  
 
-  ### 7.1 Block Statements  
+<h3 id="7.1">7.1 Block Statements <a href="#ch7">[toc]</a></h3>  
 
-  ### 7.2 Control Flow Statements (`if`, `else`, `while`, `for`)  
+<h3 id="7.3">7.2 Control Flow Statements (`if`, `else`, `while`, `for`) <a href="#ch7">[toc]</a></h3>  
 
-  ### 7.3 Return Statements  
+<h3 id="7.3">7.3 Return Statements <a href="#ch7">[toc]</a></h3>  
 
 ## 8. Objects  
 
-  ### 8.1 Object Definition and Structure  
+<h3 id="8.1">8.1 Object Definition and Structure <a href="#ch8">[toc]</a></h3>  
 
-  ### 8.2 Fields  
+<h3 id="8.2">8.2 Fields <a href="#ch8">[toc]</a></h3>  
 
-  ### 8.3 Methods  
+<h3 id="8.3">8.3 Methods <a href="#ch8">[toc]</a></h3>  
 
-  ### 8.4 Inheritance  
+<h3 id="8.4">8.4 Inheritance <a href="#ch8">[toc]</a></h3>  
 
 ## 9. Execution  
 
-  ### 9.1 Program Entry Point  
+<h3 id="9.1">9.1 Program Entry Point <a href="#ch9">[toc]</a></h3>  
 
-  ### 9.2 Object Instantiation and Initialization  
+<h3 id="9.2">9.2 Object Instantiation and Initialization <a href="#ch9">[toc]</a></h3>  
 
 ## 10. Preprocessing Directives  
 
-  ### 10.1 `#include` Directives  
+<h3 id="10.1">10.1 `#include` Directives <a href="#ch10">[toc]</a></h3>  
 
-  ### 10.2 `#define` Macros  
+<h3 id="10.2">10.2 `#define` Macros <a href="#ch10">[toc]</a></h3>  
 
 ## 11. Error Handling  
 
-  ### 11.1 Syntax Errors  
+<h3 id="11.1">11.1 Syntax Errors <a href="#ch11">[toc]</a></h3>  
   
-  ### 11.2 Runtime Errors  
+<h3 id="11.2">11.2 Runtime Errors <a href="#ch11">[toc]</a></h3>  
 
 ## 12. Appendices
 
