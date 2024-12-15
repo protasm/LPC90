@@ -76,7 +76,7 @@ title: LPC90 Language Specification
 
 The purpose of this specification is to define the syntax, semantics, and structure of LPC, a programming language designed for building and enhancing LPMuds (online, multi-user, text-only role-playing games) &mdash; specifically, as the language existed very soon after its inception. By offering a formal and detailed description of LPC circa 1990, the LPC90 language specification aims to:
 
-1. **Establish a Foundation**: Establish a consistent and widely accepted foundation that describes an "original" dialect of LPC, providing a common starting point from which future LPC90-based specifications can evolve;
+1. **Establish a Foundation**: Establish a consistent and widely accepted foundation that describes an original (or near-original) dialect of LPC, providing a common starting point from which future LPC specifications can evolve;
 
 2. **Facilitate Compatibility**: Provide a clear and consistent reference for developers working with or adapting legacy LPC-based systems;
 
@@ -90,7 +90,7 @@ This specification is modeled after the scope and structure of modern programmin
 
 <h3 id="1.2">1.2 History of LPC <a href="#ch1">[toc]</a></h3>
 
-Lars Pensj&ouml; [created LPC in 1989](https://w.wiki/CReE) as a streamlined, C-like programming language for developers of MUD ("Multi-User Dungeon") game engines ("drivers") and architects of MUD worlds ("mudlibs").  MUDs written in LPC came to be known, accordingly, as LPMuds.
+Lars Pensj&ouml; [created LPC in 1989](https://w.wiki/CReE) as a streamlined, C-like programming language for MUD ("Multi-User Dungeon") game engine developers and world architects.  MUDs written in LPC came to be known, accordingly, as LPMuds.
 
 <h3 id="1.3">1.3 Design Philosophy <a href="#ch1">[toc]</a></h3>
 
@@ -128,23 +128,23 @@ Lars Pensj&ouml; [created LPC in 1989](https://w.wiki/CReE) as a streamlined, C-
 
 ## 5. Operators  
 
-  ### 5.1 Operator Precedence and Associativity  
+<h3 id="5.1">5.1 Operator Precedence and Associativity <a href="#ch5">[toc]</a></h3>  
 
-  ### 5.2 Arithmetic Operators  
+<h3 id="5.2">5.2 Arithmetic Operators <a href="#ch5">[toc]</a></h3>  
 
-  ### 5.3 Relational and Logical Operators  
+<h3 id="5.3">5.3 Relational and Logical Operators <a href="#ch5">[toc]</a></h3>  
 
-  ### 5.4 Assignment Operators  
+<h3 id="5.4">5.4 Assignment Operators <a href="#ch5">[toc]</a></h3>  
 
 ## 6. Expressions  
 
-  ### 6.1 Evaluation Order  
+<h3 id="6.1">6.1 Evaluation Order <a href="#ch6">[toc]</a></h3>  
 
-  ### 6.2 Method Calls  
+<h3 id="6.2">6.2 Method Calls <a href="#ch6">[toc]</a></h3>  
 
-  ### 6.3 Field Access  
+<h3 id="6.3">6.3 Field Access <a href="#ch6">[toc]</a></h3>  
 
-  ### 6.4 Conditional Expressions  
+<h3 id="6.4">6.4 Conditional Expressions <a href="#ch6">[toc]</a></h3>  
 
 ## 7. Statements  
 
