@@ -158,10 +158,12 @@ A.3 Explanation of the Example
 
 The example LPC file parses into the following sections:
 
+```lpc
 Inherit Section: inherit "base_object";
 Preprocessor Section: #define MAX_HEALTH 100 and #include "constants.h"
 Field Section: int health = 100; and string name;
 Method Section: void reset() { health = MAX_HEALTH; }
+```
 
 ### B. Reserved Words
 
