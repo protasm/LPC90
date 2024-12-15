@@ -114,7 +114,7 @@ Lars Pensj&ouml; [created LPC in 1989](https://w.wiki/CReE) as a streamlined, C-
 
 <h3 id="3.2">3.2 Object Types <a href="#ch3">[toc]</a></h3>  
 
-<h3 id="3.3">3.3 Special Types (`nil`, `mixed`) <a href="#ch3">[toc]</a></h3>  
+<h3 id="3.3">3.3 Special Types ('nil', 'mixed') <a href="#ch3">[toc]</a></h3>  
 
 <h3 id="3.4">3.4 Type Conversion <a href="#ch3">[toc]</a></h3>  
 
@@ -150,7 +150,7 @@ Lars Pensj&ouml; [created LPC in 1989](https://w.wiki/CReE) as a streamlined, C-
 
 <h3 id="7.1">7.1 Block Statements <a href="#ch7">[toc]</a></h3>  
 
-<h3 id="7.2">7.2 Control Flow Statements (`if`, `else`, `while`, `for`) <a href="#ch7">[toc]</a></h3>  
+<h3 id="7.2">7.2 Control Flow Statements ('if', 'else', 'while', 'for') <a href="#ch7">[toc]</a></h3>  
 
 <h3 id="7.3">7.3 Return Statements <a href="#ch7">[toc]</a></h3>  
 
@@ -172,9 +172,9 @@ Lars Pensj&ouml; [created LPC in 1989](https://w.wiki/CReE) as a streamlined, C-
 
 ## 10. Preprocessing Directives  
 
-<h3 id="10.1">10.1 `#include` Directives <a href="#ch10">[toc]</a></h3>  
+<h3 id="10.1">10.1 '#include' Directives <a href="#ch10">[toc]</a></h3>  
 
-<h3 id="10.2">10.2 `#define` Macros <a href="#ch10">[toc]</a></h3>  
+<h3 id="10.2">10.2 '#define' Macros <a href="#ch10">[toc]</a></h3>  
 
 ## 11. Error Handling  
 
