@@ -226,7 +226,13 @@ This appendix defines the grammar of LPC90 using Backus-Naur Form (BNF). The gra
 <inherit-section> ::= "inherit" <string-literal> ";"
 
 <preprocessor-section> ::= (<include-directive> | <define-directive>)*
-<include-directive> ::= "#include" <string-literal>
+
+<include-directive> ::= "#include" <file-path>
+<file-path> ::= <quoted-file> | <bracketed-file>
+<quoted-file> ::= "\"" <file-name> "\""
+<bracketed-file> ::= "<" <file-name> ">"
+<file-name> ::= <identifier> ("/" <identifier>)*
+
 <define-directive> ::= "#define" <identifier> <replacement-text>
 
 <field-section> ::= <field-declaration>*
@@ -238,7 +244,7 @@ This appendix defines the grammar of LPC90 using Backus-Naur Form (BNF). The gra
 <parameter> ::= <type> <identifier>
 <block> ::= "{" <statement>* "}"
 
-<type> ::= "int" | "float" | "string" | "status" | "object" | "mapping" | "mixed" | "void"
+<type> ::= "int" | "float" | "mapping" | "mixed" | "object" | "status" | "string" | "void"
 <expression> ::= <literal> | <identifier> | <binary-expression> | <unary-expression>
 <literal> ::= <integer-literal> | <float-literal> | <string-literal> | "true" | "false" | "nil"
 
