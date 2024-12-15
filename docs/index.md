@@ -76,7 +76,7 @@ title: LPC90 Language Specification
 
 The purpose of this specification is to define the syntax, semantics, and structure of LPC, a programming language designed for building and enhancing LPMUDs (online, multi-user, text-only role-playing games) &mdash; specifically, as the language existed very soon after its inception. By offering a formal and detailed description of LPC circa 1990, the LPC90 language specification aims to:
 
-1. **Establish a Foundation**: Establish a consistent and widely accepted foundation that describes as the "original" dialect of LPC, providing a common starting point from which future LPC specifications can evolve;
+1. **Establish a Foundation**: Establish a consistent and widely accepted foundation that describes an "original" dialect of LPC, providing a common starting point from which future LPC90-based specifications can evolve;
 
 2. **Facilitate Compatibility**: Provide a clear and consistent reference for developers working with or adapting legacy LPC-based systems;
 
@@ -93,4 +93,42 @@ Lars Pensj&ouml; is credited with [creating LPC in 1989](https://w.wiki/CReE) as
 
 ## 13. Appendices
 
-### A. Backus-Naur Form (BNF) Grammar  
+### A. Backus-Naur Form (BNF) Grammar
+
+This appendix defines the grammar of LPC90 using Backus-Naur Form (BNF). The grammar specifies the structure of an LPC source file, which consists of the following elements in order:
+
+1. Optional `inherit` declarations
+2. Optional preprocessor directives, including `#include` and `#define`
+3. Field declarations and definitions
+4. Method declarations and definitions
+
+#### BNF Grammar
+
+```bnf
+<source-file> ::= <inherit-section>? <preprocessor-section>? <field-section> <method-section>
+
+<inherit-section> ::= "inherit" <string-literal> ";"
+
+<preprocessor-section> ::= (<include-directive> | <define-directive>)*
+<include-directive> ::= "#include" <string-literal>
+<define-directive> ::= "#define" <identifier> <replacement-text>
+
+<field-section> ::= <field-declaration>*
+<field-declaration> ::= <type> <identifier> ("=" <expression>)? ";"
+
+<method-section> ::= <method-declaration>*
+<method-declaration> ::= <type> <identifier> "(" <parameter-list>? ")" <block>
+<parameter-list> ::= <parameter> ("," <parameter>)*
+<parameter> ::= <type> <identifier>
+<block> ::= "{" <statement>* "}"
+
+<type> ::= "int" | "float" | "string" | "status" | "object" | "mapping" | "mixed" | "void"
+<expression> ::= <literal> | <identifier> | <binary-expression> | <unary-expression>
+<literal> ::= <integer-literal> | <float-literal> | <string-literal> | "true" | "false" | "nil"
+
+<statement> ::= <expression> ";" 
+              | "if" "(" <expression> ")" <block> ("else" <block>)?
+              | "while" "(" <expression> ")" <block>
+              | "for" "(" <expression>? ";" <expression>? ";" <expression>? ")" <block>
+              | <block>
+
