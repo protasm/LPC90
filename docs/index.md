@@ -93,6 +93,9 @@ This specification is modeled after the scope and structure of modern programmin
 ### 1.2 History of LPC
 Lars Pensj&ouml; is credited with [creating LPC in 1989](https://w.wiki/CReE) as a simple, C-like programming language for developers of LPMUD game drivers and worlds.
 
+---
+
+
 ## 13. Appendices
 
 ### A. Backus-Naur Form (BNF) Grammar
