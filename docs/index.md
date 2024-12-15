@@ -90,7 +90,7 @@ This specification is modeled after the scope and structure of modern programmin
 
 <h3 id="1.2">1.2 History of LPC <a href="#ch1">[toc]</a></h3>
 
-Lars Pensj&ouml; [created LPC in 1989](https://w.wiki/CReE) as a simple, C-like programming language for developers of MUD ("Multi-User Dungeon") game drivers and architects of MUD worlds.  MUDs written in LPC came to be known, accordingly, as LPMuds.
+Lars Pensj&ouml; [created LPC in 1989](https://w.wiki/CReE) as a streamlined, C-like programming language for developers of MUD ("Multi-User Dungeon") game engines ("drivers") and architects of MUD worlds ("mudlibs").  MUDs written in LPC came to be known, accordingly, as LPMuds.
 
 <h3 id="1.3">1.3 Design Philosophy <a href="#ch1">[toc]</a></h3>
 
