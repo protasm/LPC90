@@ -8,8 +8,8 @@ title: LPC90 Language Specification
 ## Table of Contents
 
 1. **Introduction**  
-   1.1 [Purpose of this Specification](#purpose-of-this-specification)  
-   1.2 [History of LPC](#1.2-history-of-lpc)  
+   1.1 [Purpose of this Specification](#11-purpose-of-this-specification)  
+   1.2 [History of LPC](#12-history-of-lpc)  
    1.3 Design Philosophy  
 
 3. **Lexical Structure**  
