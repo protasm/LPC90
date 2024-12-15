@@ -9,7 +9,7 @@ title: LPC90 Language Specification
 
 1. **Introduction**  
    1.1 [Purpose of this Specification](#purpose-of-this-specification)  
-   1.2 History of LPC  
+   1.2 [History of LPC](#history-of-lpc)  
    1.3 Design Philosophy  
 
 3. **Lexical Structure**  
@@ -85,4 +85,4 @@ The purpose of this specification is to define the syntax, semantics, and struct
 This specification is modeled after the scope and structure of modern programming language specifications but reflects LPC90’s simpler, more focused feature set. It aims to strike a balance between technical rigor and accessibility, making it useful for both technical audiences building LPC90-compliant compilers and systems and non-technical audiences interested in LPC’s legacy.
 
 ## History of LPC
-Lars Pensj&ouml; is credited with [creating LPC in 1989](https://www.wikipedia.org/LPMud) as a simple, C-like programming language for developers of LPMUD game drivers and worlds.
+Lars Pensj&ouml; is credited with [creating LPC in 1989](https://w.wiki/CReE) as a simple, C-like programming language for developers of LPMUD game drivers and worlds.
