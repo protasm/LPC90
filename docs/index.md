@@ -261,8 +261,8 @@ This appendix defines the grammar of LPC90 using Backus-Naur Form (BNF). The gra
 inherit "base_object";
 
 #define MAX_HEALTH 100
-#include "constants.h"
-
+#include "local_file.h"    // File in the same directory
+#include <standard_lib.h>  // File in the standard library
 int health = 100;
 string name;
 
@@ -283,7 +283,8 @@ inherit "base_object";
 Preprocessor Section:
 ```lpc
 #define MAX_HEALTH 100
-#include "constants.h"
+#include "local_file.h" // File in the same directory
+#include <standard_lib.h> // File in the standard library
 ```
 
 Field Section:
