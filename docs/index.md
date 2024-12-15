@@ -8,7 +8,7 @@ title: LPC90 Language Specification
 ## Table of Contents
 
 1. **Introduction**  
-   1.1 Purpose of this Specification  
+   1.1 [Purpose of this Specification](#purpose-of-this-specification)  
    1.2 Design Philosophy  
    1.3 History of LPC  
 
