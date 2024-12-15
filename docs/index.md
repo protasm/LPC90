@@ -9,7 +9,7 @@ title: LPC90 Language Specification
 
 1. **Introduction**  
    1.1 [Purpose of this Specification](#purpose-of-this-specification)  
-   1.2 [History of LPC](#1-2-history-of-lpc)  
+   1.2 [History of LPC](#1.2-history-of-lpc)  
    1.3 Design Philosophy  
 
 3. **Lexical Structure**  
