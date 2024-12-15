@@ -94,7 +94,7 @@ Lars Pensj&ouml; [created LPC in 1989](https://w.wiki/CReE) as a streamlined pro
 
 <h3 id="1.3">1.3 Design Philosophy <a href="#ch1">[toc]</a></h3>
 
-The design of LPC90 reflected a pragmatic approach to programming for text-based multi-user environments, such as MUDs (Multi-User Dungeons). Its philosophy was guided by simplicity, efficiency, and flexibility, aiming to empower developers to create and maintain complex, interactive systems with minimal overhead.
+The design of LPC90 reflected a pragmatic approach to programming for text-based, multi-user games, such as MUDs. Its philosophy was guided by simplicity, efficiency, and flexibility, aiming to empower developers to create and maintain complex, interactive systems with minimal overhead.
 
 #### Key Principles
 
