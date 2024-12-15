@@ -197,7 +197,7 @@ LPC90's design reflected the state of computer hardware, networking, programming
 
 ## 10. Preprocessing Directives  
 
-<h3 id="10.1"></h3>###10.1 `#include` Directives <a href="#ch10">[toc]</a>  
+###10.1 `#include` Directives<h3 id="10.1"></h3><a href="#ch10">[toc]</a>  
 
 <h3 id="10.2">10.2 `#define` Macros <a href="#ch10">[toc]</a></h3>  
 
