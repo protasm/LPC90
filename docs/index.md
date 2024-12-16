@@ -94,7 +94,7 @@ Lars Pensj&ouml; [created LPC in 1989](https://w.wiki/CReE) as a streamlined pro
 
 <h3 id="1.3">1.3 Design Philosophy <a href="#ch1">[toc]</a></h3>
 
-The design of LPC90 reflected a pragmatic approach to programming for text-based, multi-user games, such as MUDs. Its philosophy was guided by simplicity, efficiency, and flexibility, aiming to empower developers to create and maintain complex, interactive systems with minimal overhead.
+The original design of LPC (i.e., LPC90) reflected a pragmatic approach to programming for text-based, multi-user games, such as MUDs. Its philosophy was guided by simplicity, efficiency, and flexibility, aiming to empower developers to create and maintain complex, interactive systems with minimal overhead.
 
 #### Key Principles
 
@@ -123,6 +123,36 @@ LPC90's design reflected the state of computer hardware, networking, programming
 ## 2. Lexical Structure  
 
 <h3 id="2.1">2.1 Characters <a href="#ch2">[toc]</a></h3>
+
+The **characters** used in LPC90 source code are defined by the standard ASCII character set. These characters are divided into the following categories based on their role in the language:
+
+#### 1. **Letters**
+
+- LPC90 recognizes the following as letters:
+  - Uppercase letters: `A` to `Z`
+  - Lowercase letters: `a` to `z`
+- Letters are used in identifiers, keywords, and string literals.
+
+#### 2. **Digits**
+- The digits `0` to `9` are used in:
+  - Numeric literals (e.g., `42`, `3.14`)
+  - Identifiers (after the first character)
+
+#### 3. **Whitespace**
+- Whitespace characters are used to separate tokens and improve code readability. They include:
+  - Space (` `)
+  - Horizontal tab (`\t`)
+  - Carriage return (`\r`)
+  - Line feed (`\n`)
+- Whitespace is ignored except when it separates tokens.
+
+#### 4. **Special Characters**
+- LPC90 uses the following special characters in its syntax:
+
+```lpc
+! " # $ % & ' ( ) * + , - . / : ; < = > ? [ \ ] ^ _ ` { | } ~
+```
+
 - These characters are used for operators, delimiters, and string literals.
 
 #### 5. **Escape Sequences**
