@@ -174,7 +174,7 @@ The **characters** used in LPC90 source code are defined by the standard ASCII c
 
 #### 8. **Case Sensitivity**
 - LPC90 is a case-sensitive language. For example:
-- The identifier `Variable` is distinct from `variable`.
+  - The identifier `Variable` is distinct from `variable`.
 - Keywords must be written in lowercase as specified.
 
 ---
