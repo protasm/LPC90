@@ -123,6 +123,42 @@ LPC90's design reflected the state of computer hardware, networking, programming
 ## 2. Lexical Structure  
 
 <h3 id="2.1">2.1 Characters <a href="#ch2">[toc]</a></h3>
+- These characters are used for operators, delimiters, and string literals.
+
+#### 5. **Escape Sequences**
+- Within string literals and character constants, the following escape sequences are recognized:
+- `\\` - Backslash
+- `\"` - Double quote
+- `\n` - Line feed
+- `\t` - Horizontal tab
+- `\r` - Carriage return
+- Additional escape sequences may be supported by the implementation for extended functionality.
+
+#### 6. **Comments**
+- Comments are ignored during lexical analysis and can span:
+- A single line: Introduced by `//`
+- Multiple lines: Enclosed between `/*` and `*/`
+
+#### 7. **Character Encoding**
+- LPC90 assumes the source file is encoded in ASCII. Any characters outside the standard ASCII range may lead to undefined behavior unless explicitly supported by the implementation.
+
+#### 8. **Case Sensitivity**
+- LPC90 is a case-sensitive language. For example:
+- The identifier `Variable` is distinct from `variable`.
+- Keywords must be written in lowercase as specified.
+
+---
+
+### Example
+Here is an example showcasing valid use of characters in LPC90:
+
+```lpc
+int count = 10;   // Variable declaration
+string name = "LPC90\n";  /* String with escape sequence */
+if (count > 0) {          // Special characters used in syntax
+  count--;              // Decrement operator
+}
+```
 
 <h3 id="2.2">2.2 Tokens <a href="#ch2">[toc]</a></h3>  
 
