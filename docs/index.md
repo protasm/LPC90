@@ -412,3 +412,4 @@ The following words are reserved in LPC90:
 3. **Impact on Identifiers**:
    Because reserved words cannot be redefined, attempting to use them as identifiers will result in a compilation error.
    
+Editor's note:  The draft LPC90 specification was generated with the assistance of ChatGPT.
