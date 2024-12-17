@@ -387,8 +387,8 @@ While LPC90 imposes no strict naming conventions, the following practices are en
    Choose names that clearly convey their purpose.  
    Example:  
    ```lpc
-   int healthPoints;
-   string playerName;
+   int health_points;
+   string player_name;
    ```
 
 2. **Underscores for Separation**:  
