@@ -292,6 +292,52 @@ The proper use of tokens ensures that LPC90 source code is well-formed and under
 
 <h3 id="2.3">2.3 Keywords <a href="#ch2">[toc]</a></h3>  
 
+Keywords in LPC90 are reserved words with predefined meanings. They are an essential part of the language syntax and cannot be used as identifiers for variables, methods, or other user-defined elements.
+
+#### List of Keywords
+
+The following words are reserved in LPC90:
+
+- **Control Structures**:  
+  `if`, `else`, `for`, `while`, `return`
+
+- **Logical Constants**:  
+  `true`, `false`, `nil`
+
+- **Object-Oriented Keywords**:  
+  `inherit`
+
+#### Usage of Keywords
+
+Keywords must be written in lowercase. LPC90 is case-sensitive, so writing `If` instead of `if` will result in a syntax error.
+
+**Example**:  
+```lpc
+if (health > 0) {
+    return true;
+} else {
+    return false;
+}
+```
+
+In this example:  
+- `if`, `else`, and `return` are keywords.  
+- They control the flow of the program and are reserved for specific language behavior.
+
+#### Restrictions
+Attempting to use a keyword as an identifier will result in a compilation error. For example:
+
+**Invalid Code**:  
+```lpc
+int if = 10;  // Error: 'if' is a reserved keyword
+```
+
+---
+
+### Summary
+
+Keywords are reserved words that define the structure and behavior of LPC90 programs. They include control structures, logical constants, and object-oriented terms. Since LPC90 is case-sensitive, keywords must be written in lowercase exactly as specified.
+
 <h3 id="2.4">2.4 Identifiers <a href="#ch2">[toc]</a></h3>  
 
 <h3 id="2.5">2.5 Literals <a href="#ch2">[toc]</a></h3>  
