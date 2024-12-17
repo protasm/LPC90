@@ -568,14 +568,18 @@ Comments are essential for improving code readability, documentation, and mainte
 
 <h3 id="3.1">3.1 Primitive Types <a href="#ch3">[toc]</a></h3>  
 
+## Types
+
+### Primitive Types
+
 LPC90 supports the following primitive types:
 
 1. **int**
-   - Represents integer values.
+   - Represents integer values as a 32-bit signed integer with a range of -2,147,483,648 to 2,147,483,647.
    - Example: `int count = 42;`
 
 2. **float**
-   - Represents floating-point numbers with single-precision.
+   - Represents floating-point numbers with single-precision, following the IEEE 754 standard, with approximately 7 decimal digits of precision and a range of about ±1.4 × 10⁻⁴⁵ to ±3.4 × 10³⁸.
    - Example: `float pi = 3.14;`
 
 3. **status**
@@ -587,7 +591,7 @@ LPC90 supports the following primitive types:
 4. **string**
    - Represents sequences of characters.
    - Strings are immutable.
-   - Example: `string name = "PlayerOne";`
+   - Example: `string name = "player_one";`
 
 5. **void**
    - Used to indicate that a method does not return a value.
@@ -598,11 +602,6 @@ LPC90 supports the following primitive types:
          // Method implementation
      }
      ```
-
-6. **object**
-   - Represents a reference to an LPC object.
-   - Objects are the core building blocks in LPC90.
-   - Example: `object player = find_player("PlayerOne");`
 
 Primitive types provide the foundational building blocks for variables, method return types, and method parameters in LPC90. Additional types such as `mapping` and `mixed` are defined later in this specification.
 
