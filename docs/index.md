@@ -568,6 +568,44 @@ Comments are essential for improving code readability, documentation, and mainte
 
 <h3 id="3.1">3.1 Primitive Types <a href="#ch3">[toc]</a></h3>  
 
+LPC90 supports the following primitive types:
+
+1. **int**
+   - Represents integer values.
+   - Example: `int count = 42;`
+
+2. **float**
+   - Represents floating-point numbers with single-precision.
+   - Example: `float pi = 3.14;`
+
+3. **status**
+   - Represents a boolean value, where:
+     - `true` indicates a positive condition.
+     - `false` indicates a negative condition.
+   - Example: `status is_ready = true;`
+
+4. **string**
+   - Represents sequences of characters.
+   - Strings are immutable.
+   - Example: `string name = "PlayerOne";`
+
+5. **void**
+   - Used to indicate that a method does not return a value.
+   - Cannot be used as a variable type.
+   - Example:
+     ```lpc
+     void reset() {
+         // Method implementation
+     }
+     ```
+
+6. **object**
+   - Represents a reference to an LPC object.
+   - Objects are the core building blocks in LPC90.
+   - Example: `object player = find_player("PlayerOne");`
+
+Primitive types provide the foundational building blocks for variables, method return types, and method parameters in LPC90. Additional types such as `mapping` and `mixed` are defined later in this specification.
+
 <h3 id="3.2">3.2 Object Types <a href="#ch3">[toc]</a></h3>  
 
 <h3 id="3.3">3.3 Special Types (`nil`, `mixed`) <a href="#ch3">[toc]</a></h3>  
