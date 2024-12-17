@@ -492,6 +492,78 @@ Literals provide the foundation for constant values within LPC90 programs and ar
 
 <h3 id="2.6">2.6 Comments <a href="#ch2">[toc]</a></h3>
 
+Comments in LPC90 are used to add explanatory notes or documentation to the source code. Comments are ignored by the compiler during lexical analysis and do not affect program behavior. LPC90 supports two types of comments:
+
+---
+
+#### 1. **Single-Line Comments**
+- Single-line comments begin with `//`.  
+- All text following `//` on the same line is treated as a comment and ignored by the compiler.
+
+**Example**:  
+```lpc
+// This is a single-line comment
+int health = 100; // Initialize health to 100
+```
+
+---
+
+#### 2. **Multi-Line Comments**
+- Multi-line comments are enclosed between `/*` and `*/`.  
+- They can span multiple lines, making them useful for larger blocks of documentation or temporarily disabling code.
+
+**Example**:  
+```lpc
+/* 
+   This is a multi-line comment.
+   It spans multiple lines.
+*/
+int health = 100;
+
+/* Multi-line comments can also
+   be used to temporarily disable code.
+int damage = 25;
+*/
+```
+
+---
+
+### Comment Nesting
+- LPC90 **does not allow nesting of multi-line comments**.  
+- Starting a new `/*` inside an existing multi-line comment will lead to syntax errors.  
+
+**Invalid Example**:  
+```lpc
+/* Outer comment
+   /* Inner comment */  // Error: nested comments are not allowed
+*/
+```
+
+---
+
+### Best Practices for Comments
+1. **Clarity**: Use comments to explain complex logic or document code intentions.  
+2. **Avoid Redundancy**: Do not comment obvious code.  
+3. **Consistent Style**: Follow a consistent style for comments throughout your code.  
+
+**Good Example**:  
+```lpc
+// Check if the player has enough health
+if (health > 0) {
+    reset();
+}
+```
+
+---
+
+### Summary
+
+LPC90 supports two types of comments:  
+- **Single-Line Comments**: Begin with `//` and extend to the end of the line.  
+- **Multi-Line Comments**: Enclosed between `/*` and `*/`, and can span multiple lines.  
+
+Comments are essential for improving code readability, documentation, and maintenance but are ignored by the compiler during execution.
+
 ## 3. Types  
 
 <h3 id="3.1">3.1 Primitive Types <a href="#ch3">[toc]</a></h3>  
