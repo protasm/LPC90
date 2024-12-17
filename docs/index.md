@@ -202,7 +202,7 @@ Identifiers are names used for variables, fields, methods, and other user-define
 
 **Example**:  
 ```lpc
-int myVariable = 10;
+int my_varariable = 10;
 string _name = "LPC90";
 ```
 
@@ -260,7 +260,7 @@ Delimiters are symbols used to separate or group code elements. They include:
 **Example**:  
 ```lpc
 if (x > 0) {
-    myArray[0] = 10;
+    my_array[0] = 10;
 }
 ```
 
