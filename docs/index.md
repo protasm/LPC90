@@ -415,6 +415,81 @@ Adhering to these rules ensures that LPC90 programs are syntactically correct an
 
 <h3 id="2.5">2.5 Literals <a href="#ch2">[toc]</a></h3>  
 
+Literals in LPC90 are fixed, constant values that appear directly in the source code. They represent specific data and can be categorized into the following types:
+
+---
+
+#### 1. **Integer Literals**  
+Integer literals represent whole numbers, both positive and negative.  
+- They consist of a sequence of digits (`0-9`).  
+- Negative integers are prefixed with a minus sign (`-`).  
+
+**Examples**:  
+```lpc
+int health = 100;
+int damage = -25;
+```
+
+---
+
+#### 2. **Float Literals**  
+Float literals represent real numbers with a fractional part.  
+- They include a decimal point (`.`).  
+- Optional negative values are prefixed with a minus sign (`-`).  
+
+**Examples**:  
+```lpc
+float pi = 3.14;
+float temperature = -12.5;
+```
+
+---
+
+#### 3. **String Literals**  
+String literals represent sequences of characters enclosed in double quotes (`"`).  
+- Special characters can be represented using escape sequences.  
+
+**Escape Sequences**:  
+- `\\` - Backslash  
+- `\"` - Double quote  
+- `\n` - Line feed (newline)  
+- `\t` - Horizontal tab  
+- `\r` - Carriage return  
+
+**Examples**:  
+```lpc
+string name = "LPC90";
+string greeting = "Hello, World!\nWelcome to LPC.";
+string escaped = "Path: C:\\Users\\Player";
+```
+
+---
+
+#### 4. **Logical Literals**  
+LPC90 includes three logical constants:  
+- `true`: Represents a logical "true" value.  
+- `false`: Represents a logical "false" value.  
+- `nil`: Represents a null or "no value."  
+
+**Examples**:  
+```lpc
+status is_alive = true;
+status has_loot = false;
+object weapon = nil;
+```
+
+---
+
+### Summary
+
+LPC90 supports the following types of literals:  
+1. **Integer Literals**: Whole numbers like `42` or `-100`.  
+2. **Float Literals**: Real numbers like `3.14` or `-0.01`.  
+3. **String Literals**: Text values enclosed in double quotes, supporting escape sequences.  
+4. **Logical Literals**: The constants `true`, `false`, and `nil`.  
+
+Literals provide the foundation for constant values within LPC90 programs and are essential for defining variables, initializing fields, and representing fixed data.
+
 <h3 id="2.6">2.6 Comments <a href="#ch2">[toc]</a></h3>
 
 ## 3. Types  
