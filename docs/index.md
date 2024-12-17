@@ -327,7 +327,7 @@ In this example:
 #### Restrictions
 Attempting to use a keyword as an identifier will result in a compilation error. For example:
 
-**Invalid Code**:  
+**Invalid Code**:
 ```lpc
 int if = 10;  // Error: 'if' is a reserved keyword
 ```
@@ -339,6 +339,79 @@ int if = 10;  // Error: 'if' is a reserved keyword
 Keywords are reserved words that define the structure and behavior of LPC90 programs. They include control structures, logical constants, and object-oriented terms. Since LPC90 is case-sensitive, keywords must be written in lowercase exactly as specified.
 
 <h3 id="2.4">2.4 Identifiers <a href="#ch2">[toc]</a></h3>  
+
+Identifiers in LPC90 are names used to represent variables, methods, fields, parameters, and other user-defined elements. They allow developers to reference and manipulate data and behaviors in a program.
+
+#### Rules for Identifiers
+
+1. **Starting Character**:  
+   An identifier must begin with:  
+   - A letter (`A-Z`, `a-z`)  
+   - An underscore (`_`)
+
+2. **Subsequent Characters**:  
+   After the first character, identifiers can include:  
+   - Letters (`A-Z`, `a-z`)  
+   - Digits (`0-9`)  
+   - Underscores (`_`)
+
+3. **Case Sensitivity**:  
+   LPC90 is case-sensitive, meaning identifiers such as `Variable`, `variable`, and `VARIABLE` are treated as distinct.
+
+4. **Reserved Words Restriction**:  
+   Identifiers cannot be the same as keywords or reserved words (e.g., `if`, `else`, `return`). Using reserved words as identifiers will result in a compilation error.
+
+#### Valid and Invalid Identifiers
+
+**Valid Identifiers**:  
+```lpc
+int health;
+string _name;
+float player1_score;
+```
+
+**Invalid Identifiers**:  
+```lpc
+int 1stPlayer;   // Cannot start with a digit
+float if;        // 'if' is a reserved keyword
+string player-name; // Cannot contain a hyphen
+```
+
+---
+
+### Naming Conventions
+
+While LPC90 imposes no strict naming conventions, the following practices are encouraged to improve code readability:
+
+1. **Use Descriptive Names**:  
+   Choose names that clearly convey their purpose.  
+   Example:  
+   ```lpc
+   int healthPoints;
+   string playerName;
+   ```
+
+2. **Underscores for Separation**:  
+   Use underscores to separate words in multi-word identifiers.  
+   Example:  
+   ```lpc
+   float player_score;
+   ```
+
+3. **Avoid Reserved Words**:  
+   Always avoid names that conflict with reserved keywords.
+
+---
+
+### Summary
+
+Identifiers in LPC90:  
+- Must start with a letter or an underscore.  
+- Can include letters, digits, and underscores after the first character.  
+- Are case-sensitive.  
+- Cannot use reserved words.  
+
+Adhering to these rules ensures that LPC90 programs are syntactically correct and readable.
 
 <h3 id="2.5">2.5 Literals <a href="#ch2">[toc]</a></h3>  
 
