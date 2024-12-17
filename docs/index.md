@@ -192,6 +192,104 @@ if (count > 0) {          // Special characters used in syntax
 
 <h3 id="2.2">2.2 Tokens <a href="#ch2">[toc]</a></h3>  
 
+In LPC90, a **token** is the smallest unit of meaningful text in the source code. Tokens are recognized during lexical analysis and are categorized into several types:
+
+#### 1. **Identifiers**
+Identifiers are names used for variables, fields, methods, and other user-defined elements.  
+- An identifier must begin with a letter (`A-Z`, `a-z`) or an underscore (`_`).  
+- Subsequent characters may include letters, digits (`0-9`), or underscores.  
+- Identifiers are case-sensitive.  
+
+**Example**:  
+```lpc
+int myVariable = 10;
+string _name = "LPC90";
+```
+
+#### 2. **Keywords**
+Keywords are reserved words that have predefined meanings in LPC90. They cannot be used as identifiers.  
+Examples of keywords include:  
+`if`, `else`, `for`, `while`, `return`, `true`, `false`, `nil`, `inherit`
+
+**Example**:  
+```lpc
+if (x > 0) {
+    return true;
+}
+```
+
+#### 3. **Literals**
+Literals represent fixed values in the source code. LPC90 supports the following types of literals:  
+- **Integer literals**: Whole numbers, e.g., `42`, `-100`  
+- **Float literals**: Decimal numbers, e.g., `3.14`, `-0.01`  
+- **String literals**: Sequences of characters enclosed in double quotes, e.g., `"Hello World"`.  
+- **Logical literals**: `true`, `false`, and `nil` (null).  
+
+**Example**:  
+```lpc
+int num = 42;
+float pi = 3.14;
+string message = "Hello";
+status flag = true;
+```
+
+#### 4. **Operators**
+Operators are symbols that perform computations or comparisons. Examples include:  
+- **Arithmetic Operators**: `+`, `-`, `*`, `/`, `%`  
+- **Comparison Operators**: `==`, `!=`, `<`, `>`, `<=`, `>=`  
+- **Logical Operators**: `&&`, `||`, `!`  
+- **Assignment Operators**: `=`, `+=`, `-=`, `*=`, `/=`  
+
+**Example**:  
+```lpc
+int result = 10 + 5;
+if (x >= 0 && x < 100) {
+    x += 1;
+}
+```
+
+#### 5. **Delimiters**
+Delimiters are symbols used to separate or group code elements. They include:  
+- **Parentheses**: `(` and `)`  
+- **Braces**: `{` and `}`  
+- **Brackets**: `[` and `]`  
+- **Semicolon**: `;`  
+- **Comma**: `,`  
+- **Colon**: `:`  
+
+**Example**:  
+```lpc
+if (x > 0) {
+    myArray[0] = 10;
+}
+```
+
+#### 6. **Comments**
+Comments are ignored by the compiler and are used for documentation:  
+- Single-line comments begin with `//` and extend to the end of the line.  
+- Multi-line comments are enclosed between `/*` and `*/`.  
+
+**Example**:  
+```lpc
+// This is a single-line comment
+/* This is a
+   multi-line comment */
+```
+
+---
+
+### Summary
+
+Tokens are categorized as:  
+1. **Identifiers**: Names of variables, fields, and methods.  
+2. **Keywords**: Reserved words with predefined meanings.  
+3. **Literals**: Fixed values such as numbers, strings, or logical constants.  
+4. **Operators**: Symbols for computation, comparison, and logic.  
+5. **Delimiters**: Symbols that structure the code.  
+6. **Comments**: Non-executable documentation in the code.
+
+The proper use of tokens ensures that LPC90 source code is well-formed and understandable by the compiler.
+
 <h3 id="2.3">2.3 Keywords <a href="#ch2">[toc]</a></h3>  
 
 <h3 id="2.4">2.4 Identifiers <a href="#ch2">[toc]</a></h3>  
